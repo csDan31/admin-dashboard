@@ -171,6 +171,9 @@ button {
 
 .project-card-img{
     justify-self: end;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
 }
 .project-card>p {
     font-size: small;
